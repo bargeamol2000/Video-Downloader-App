@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About_Us">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About US"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Hello There We Are CyberCode.pvt.limited we are created these app if you are facing some problem thats okk you contact us on sanketsabale9767@gmail.com these is really great opportunity for us to help you or if you want to Create Your own Application With Us Contact 9767809468 ( WhatsApp )....."
+            android:textColor="@color/black"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
